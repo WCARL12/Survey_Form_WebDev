@@ -1,6 +1,6 @@
 # Survey_form_WebDev
 <p>Created a side project for a small survey form</p>
-<a href='https://wcarl12.github.io/Survey_Form_WebDev/'>Wensite link</a>
+<a href='https://wcarl12.github.io/Survey_Form_WebDev/'>Website link</a>
 
 <br>
 <p>Preview:</p>
