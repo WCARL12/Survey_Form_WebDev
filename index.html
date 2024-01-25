@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+      <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Yeseva+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h2>DevWeb Survey</h2>
+      <p>Thank you for taking the time to fill up our survey</p>
+    </header>
+    <div id="survey">
+      <fieldset>
+        <section class="section-1">
+          <section class="personal">
+            <label for="full-name" class='label' id='name'>Name:</label>
+            <br />
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              required
+              placeholder="Enter your name"
+            />
+          </section>
+          <section class="personal">
+            <label for="email" class="label">Email:</label>
+                <br>
+              <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+            />
+          </section>
+          <section class="personal">
+            <label for="number" class="label">Phone Number: </label>
+            <br>
+              <input type="text" name="number" id="number" placeholder="Enter your phone number"/>
+          </section>
+          <section class="personal">
+            <label for="address" class="label"'>Address (optional): </label>
+            <br>
+              <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Enter your address"
+            />
+          </section>
+          <section class="personal">
+            <label for="position" class="label">Which position describes you best?</label>
+            <br />
+            <select name="position" id="position">
+              <option value="none" class="select">(select)</option>
+              <option value="Front-end" class="option-1-2-3">Front-End</option>
+              <option value="Back-end" class="option-1-2-3">Back-End</option>
+              <option value="Full-Stack" class="option-1-2-3">Full-Stack</option>
+            </select>
+          </section>
+          <section class="choices">
+            <p>How did you know about us?</p>
+            <input
+              type="checkbox"
+              name="mention"
+              value="social-media"
+            />
+            <label for="social-media" class='options']>Social Media</label>
+            <input
+              type="checkbox"
+              name="mention"
+              value="students"
+              id="students"
+            />
+            <label for="students" class='options'>Students</label>
+            <input
+              type="checkbox"
+              name="mention"
+              value="teachers"
+              id="teachers"
+            />
+            <label for="teachers" class="options">Teachers</label>
+            <input
+              type="checkbox"
+              name="mention"
+              value="parents"
+              id="parents"
+            />
+            <label for="parents" class='options'>Parents</label>
+          </section>
+          <section class="rating">
+            <p>How satisfied are you with DevWeb?</p>
+            <input
+              type="radio"
+              name="rating"
+              value="Very-Good"
+              id="Very-Good"
+            />
+            <label for="Very-Good" class="options">Very Good</label>
+            <input type="radio" name="rating" value="Good" id="Good" />
+            <label for="Good" class="options">Good</label>
+            <input type="radio" name="rating" value="Neutral" id="Neutral" />
+            <label for="Neutral" class="options">Neutral</label>
+            <input type="radio" name="rating" value="Bad" id="Bad" />
+            <label for="Bad" class='options'>Bad</label>
+            <input type="radio" name="rating" value="Very-Bad" id="Very-Bad" />
+            <label for="Very-Bad" class="options">Very Bad</label>
+          </section>
+          <section class="feedback">
+            <p>
+              Give us a feedback on where we can improve on
+              <span>(optional):</span>
+            </p>
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="74"
+              rows="12"
+                placeholder="DevWeb can improve on..."
+            ></textarea>
+              <br>
+              <input type="submit" class="submit" value="Submit">
+          </section>
+        </section>
+      </fieldset>
+    </div>
+  </body>
+</html>

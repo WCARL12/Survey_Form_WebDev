@@ -1,0 +1,112 @@
+body {
+  background-image: linear-gradient(rgb(108 94 235 / 70%), rgb(0 0 0 / 70%)),
+    url(Survey_1.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header h2,
+header p {
+  text-align: center;
+}
+header h2 {
+  font-family: Yeseva One;
+  letter-spacing: 0.7px;
+  font-size: 30px;
+  color: #f5f5f5;
+  text-shadow: 0px 0px 8px black;
+}
+header p {
+  font-size: 18px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 0 0 3px black;
+}
+fieldset {
+  height: 75vw;
+  width: 900px;
+  position: relative;
+  left: 20%;
+  background-color: rgb(38 25 49 / 50%);
+}
+
+.label {
+  height: 30px;
+  width: 60%;
+  font-family: Bricolage Grotesque;
+  font-size: 30px;
+}
+
+.section-1 {
+  margin-left: 20px;
+}
+.choices p {
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: Bricolage Grotesque;
+  margin-bottom: 15px;
+}
+.options {
+  position: relative;
+  bottom: -1px;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: 600;
+}
+.rating p {
+  margin-top: 25px;
+  font-family: Bricolage Grotesque;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+input {
+  margin-top: 8px;
+}
+.personal {
+  margin-top: 10px;
+}
+.personal input {
+  font-family: Bricolage Grotesque;
+  font-size: 25px;
+  height: 35px;
+  width: 80%;
+}
+#position {
+  margin-top: 10px;
+  font-family: Bricolage Grotesque;
+  font-size: 25px;
+  height: 35px;
+  width: 80.9%;
+}
+option.select {
+  color: gray;
+}
+.feedback p {
+  font-size: 25px;
+  font-family: Bricolage Grotesque;
+}
+textarea {
+  font-size: 18px;
+  font-family: arial;
+}
+.submit {
+  position: relative;
+  margin-top: 20px;
+  font-family: Bricolage Grotesque;
+  font-size: 18px;
+  font-weight: 600;
+  height: 60px;
+  width: 90px;
+  background-color: #869de9;
+  cursor: pointer;
+  transition: 1s;
+}
+.submit:hover {
+  background-color: #7087ff;
+  color: black;
+}
+.submit:active {
+  scale: 1.5;
+}
